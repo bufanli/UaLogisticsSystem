@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="rt-common-shiro/src/main/java"/>
+	<classpathentry kind="src" path="rt-common-sms/src/main/java"/>
+	<classpathentry kind="src" path="rt-common/src/main/java"/>
+	<classpathentry kind="src" path="rt-facade/src/main/java"/>
+	<classpathentry kind="src" path="rt-service/src/main/java"/>
+	<classpathentry excluding="com/rt/common/listener/" kind="src" path="rt-web-admin/src/main/java"/>
+	<classpathentry kind="src" path="rt-web-admin/src/main/java/com/rt/common/listener"/>
+	<classpathentry kind="output" path="rt-common/target/classes"/>
+</classpath>

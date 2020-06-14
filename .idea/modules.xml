@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/UaLogisticsSystem.iml" filepath="$PROJECT_DIR$/.idea/UaLogisticsSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rt-common/rt-common.iml" filepath="$PROJECT_DIR$/rt-common/rt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rt-common-shiro/rt-common-shiro.iml" filepath="$PROJECT_DIR$/rt-common-shiro/rt-common-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rt-common-sms/rt-common-sms.iml" filepath="$PROJECT_DIR$/rt-common-sms/rt-common-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rt-facade/rt-facade.iml" filepath="$PROJECT_DIR$/rt-facade/rt-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rt-service/rt-service.iml" filepath="$PROJECT_DIR$/rt-service/rt-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rt-web-admin/rt-web-admin.iml" filepath="$PROJECT_DIR$/rt-web-admin/rt-web-admin.iml" />
+    </modules>
+  </component>
+</project>

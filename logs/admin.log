@@ -1,0 +1,134 @@
+2020-06-14 09:07:16,330 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 31] 初始化环境变量
+2020-06-14 09:07:16,584 [INFO] [main] com.rt.Application [StartupInfoLogger.java : 50] Starting Application on DESKTOP-DHMQMJG with PID 21064 (D:\00_study\01_java\UaLogisticsSystem\rt-web-admin\target\classes started by Dell in D:\00_study\01_java\UaLogisticsSystem)
+2020-06-14 09:07:16,584 [DEBUG] [main] com.rt.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2020-06-14 09:07:16,585 [INFO] [main] com.rt.Application [SpringApplication.java : 663] The following profiles are active: dev
+2020-06-14 09:07:16,954 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 33] 初始化环境变量完成
+2020-06-14 09:07:26,313 [WARN] [main] com.baomidou.mybatisplus.core.toolkit.TableInfoHelper [TableInfoHelper.java : 275] Warn: Could not find @TableId in Class: com.rt.modules.sys.entity.RoleResource.
+2020-06-14 09:07:26,386 [WARN] [main] com.baomidou.mybatisplus.core.toolkit.TableInfoHelper [TableInfoHelper.java : 275] Warn: Could not find @TableId in Class: com.rt.modules.sys.entity.UserRole.
+2020-06-14 09:07:27,051 [DEBUG] [main] com.rt.config.FreeMarkerConfig [FreeMarkerConfig.java : 43] 自定义FreeMarkerViewResolver加载完成
+2020-06-14 09:07:27,112 [DEBUG] [main] com.rt.config.redis.RedisConfig [RedisConfig.java : 78] 自定义RedisCacheManager加载完成
+2020-06-14 09:07:27,353 [DEBUG] [main] com.rt.config.redis.RedisConfig [RedisConfig.java : 92] 自定义RedisTemplate加载完成
+2020-06-14 09:07:29,802 [INFO] [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] DatebookHikariCP - Starting...
+2020-06-14 09:07:30,058 [INFO] [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] DatebookHikariCP - Start completed.
+2020-06-14 09:07:30,149 [INFO] [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1208] Using default implementation for ThreadExecutor
+2020-06-14 09:07:30,180 [INFO] [main] org.quartz.core.SchedulerSignalerImpl [SchedulerSignalerImpl.java : 61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-06-14 09:07:30,181 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 229] Quartz Scheduler v.2.3.0 created.
+2020-06-14 09:07:30,182 [INFO] [main] org.quartz.simpl.RAMJobStore [RAMJobStore.java : 155] RAMJobStore initialized.
+2020-06-14 09:07:30,184 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 294] Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-06-14 09:07:30,184 [INFO] [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1362] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-06-14 09:07:30,185 [INFO] [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1366] Quartz scheduler version: 2.3.0
+2020-06-14 09:07:30,185 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 2287] JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@44eb2452
+2020-06-14 09:07:30,394 [INFO] [main] io.lettuce.core.EpollProvider [Slf4JLogger.java : 101] Starting without optional epoll library
+2020-06-14 09:07:30,397 [INFO] [main] io.lettuce.core.KqueueProvider [Slf4JLogger.java : 101] Starting without optional kqueue library
+2020-06-14 09:07:31,154 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 547] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-06-14 09:07:31,220 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 35] 应用刷新
+2020-06-14 09:07:31,253 [ERROR] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 182] Failed to start connector [Connector[HTTP/1.1-8090]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8090]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.rt.Application.main(Application.java:18)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2020-06-14 09:07:31,281 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 45] 应用异常
+org.springframework.boot.web.embedded.tomcat.ConnectorStartFailedException: Connector configured to listen on port 8090 failed to start
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.checkThatConnectorsHaveStarted(TomcatWebServer.java:228)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:203)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.rt.Application.main(Application.java:18)
+2020-06-14 09:07:31,283 [ERROR] [main] o.s.boot.diagnostics.LoggingFailureAnalysisReporter [LoggingFailureAnalysisReporter.java : 42] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8090, or configure this application to listen on another port.
+
+2020-06-14 09:07:31,285 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 43] 应用关闭
+2020-06-14 09:07:31,288 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 585] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-06-14 09:07:31,294 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 666] Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-06-14 09:07:31,295 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 585] Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-06-14 09:07:31,296 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 740] Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-06-14 09:07:31,308 [INFO] [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 381] DatebookHikariCP - Shutdown initiated...
+2020-06-14 09:07:31,313 [INFO] [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 383] DatebookHikariCP - Shutdown completed.
+2020-06-14 09:07:31,320 [WARN] [main] io.lettuce.core.RedisChannelHandler [Slf4JLogger.java : 131] Connection is already closed
+2020-06-14 09:08:50,632 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 31] 初始化环境变量
+2020-06-14 09:08:50,910 [INFO] [main] com.rt.Application [StartupInfoLogger.java : 50] Starting Application on DESKTOP-DHMQMJG with PID 20164 (D:\00_study\01_java\UaLogisticsSystem\rt-web-admin\target\classes started by Dell in D:\00_study\01_java\UaLogisticsSystem)
+2020-06-14 09:08:50,911 [DEBUG] [main] com.rt.Application [StartupInfoLogger.java : 53] Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2020-06-14 09:08:50,911 [INFO] [main] com.rt.Application [SpringApplication.java : 663] The following profiles are active: dev
+2020-06-14 09:08:51,328 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 33] 初始化环境变量完成
+2020-06-14 09:08:56,773 [WARN] [main] com.baomidou.mybatisplus.core.toolkit.TableInfoHelper [TableInfoHelper.java : 275] Warn: Could not find @TableId in Class: com.rt.modules.sys.entity.RoleResource.
+2020-06-14 09:08:56,854 [WARN] [main] com.baomidou.mybatisplus.core.toolkit.TableInfoHelper [TableInfoHelper.java : 275] Warn: Could not find @TableId in Class: com.rt.modules.sys.entity.UserRole.
+2020-06-14 09:08:57,531 [DEBUG] [main] com.rt.config.FreeMarkerConfig [FreeMarkerConfig.java : 43] 自定义FreeMarkerViewResolver加载完成
+2020-06-14 09:08:57,593 [DEBUG] [main] com.rt.config.redis.RedisConfig [RedisConfig.java : 78] 自定义RedisCacheManager加载完成
+2020-06-14 09:08:57,851 [DEBUG] [main] com.rt.config.redis.RedisConfig [RedisConfig.java : 92] 自定义RedisTemplate加载完成
+2020-06-14 09:08:59,958 [INFO] [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] DatebookHikariCP - Starting...
+2020-06-14 09:09:00,184 [INFO] [main] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] DatebookHikariCP - Start completed.
+2020-06-14 09:09:00,268 [INFO] [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1208] Using default implementation for ThreadExecutor
+2020-06-14 09:09:00,296 [INFO] [main] org.quartz.core.SchedulerSignalerImpl [SchedulerSignalerImpl.java : 61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-06-14 09:09:00,296 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 229] Quartz Scheduler v.2.3.0 created.
+2020-06-14 09:09:00,298 [INFO] [main] org.quartz.simpl.RAMJobStore [RAMJobStore.java : 155] RAMJobStore initialized.
+2020-06-14 09:09:00,301 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 294] Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-06-14 09:09:00,301 [INFO] [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1362] Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-06-14 09:09:00,301 [INFO] [main] org.quartz.impl.StdSchedulerFactory [StdSchedulerFactory.java : 1366] Quartz scheduler version: 2.3.0
+2020-06-14 09:09:00,302 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 2287] JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@77bb916f
+2020-06-14 09:09:00,482 [INFO] [main] io.lettuce.core.EpollProvider [Slf4JLogger.java : 101] Starting without optional epoll library
+2020-06-14 09:09:00,486 [INFO] [main] io.lettuce.core.KqueueProvider [Slf4JLogger.java : 101] Starting without optional kqueue library
+2020-06-14 09:09:01,097 [INFO] [main] org.quartz.core.QuartzScheduler [QuartzScheduler.java : 547] Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-06-14 09:09:01,163 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 35] 应用刷新
+2020-06-14 09:09:01,218 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 47] org.springframework.boot.web.servlet.context.ServletWebServerInitializedEvent[source=org.springframework.boot.web.embedded.tomcat.TomcatWebServer@144e36ae]
+2020-06-14 09:09:01,222 [INFO] [main] com.rt.Application [StartupInfoLogger.java : 59] Started Application in 11.617 seconds (JVM running for 12.317)
+2020-06-14 09:09:01,223 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 47] org.springframework.boot.context.event.ApplicationStartedEvent[source=org.springframework.boot.SpringApplication@7d90644f]
+2020-06-14 09:09:01,227 [DEBUG] [main] com.rt.common.listener.ApplicationEventListener [ApplicationEventListener.java : 37] 应用已启动完成
+2020-06-14 09:09:01,227 [DEBUG] [main] com.rt.Application [Application.java : 19] 启动成功

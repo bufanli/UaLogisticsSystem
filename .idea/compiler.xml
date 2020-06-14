@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rt-common" />
+        <module name="rt-common-shiro" />
+        <module name="rt-common-sms" />
+        <module name="rt-facade" />
+        <module name="rt-service" />
+        <module name="rt-web-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rt-common" target="1.8" />
+      <module name="rt-common-shiro" target="1.8" />
+      <module name="rt-common-sms" target="1.8" />
+      <module name="rt-facade" target="1.8" />
+      <module name="rt-service" target="1.8" />
+      <module name="rt-web-admin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

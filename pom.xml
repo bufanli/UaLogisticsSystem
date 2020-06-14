@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.rt</groupId>
+    <artifactId>UaLogisticsSystem</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <description>无人机物流管理系统</description>
+
+    <repositories>
+        <repository>
+            <id>maven-ali</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
+
+    <!-- Inherit defaults from Spring Boot -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.1.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <!--<tomcat.version>8.5.13</tomcat.version>-->
+        <!--<mybatis.spring.boot.version>1.2.0</mybatis.spring.boot.version>-->
+        <mybatis-plus-boot-starter.version>3.0-RELEASE</mybatis-plus-boot-starter.version>
+        <!--<mybatisplus.version>2.1.8</mybatisplus.version>-->
+        <mysql.version>8.0.13</mysql.version>
+        <druid.version>1.0.28</druid.version>
+        <quartz.version>2.3.0</quartz.version>
+        <swagger.version>2.2.2</swagger.version>
+        <commons.lang3.version>3.6</commons.lang3.version>
+        <commons.lang.version>2.6</commons.lang.version>
+        <commons.fileupload.version>1.3.1</commons.fileupload.version>
+        <commons.io.version>2.5</commons.io.version>
+        <commons.codec.version>1.10</commons.codec.version>
+        <commons.configuration.version>1.10</commons.configuration.version>
+        <fastjson.version>1.2.44</fastjson.version>
+        <shiro.version>1.3.2</shiro.version>
+        <kaptcha.version>0.0.9</kaptcha.version>
+        <qiniu.version>[7.2.0, 7.2.99]</qiniu.version>
+        <aliyun.oss.version>2.5.0</aliyun.oss.version>
+        <qcloud.cos.version>4.4</qcloud.cos.version>
+        <velocity.version>1.7</velocity.version>
+        <orika.version>1.5.0</orika.version>
+        <cglib.version>3.2.4</cglib.version>
+        <caffine.version>2.6.0</caffine.version>
+        <poi.version>3.14</poi.version>
+    </properties>
+
+
+
+    <modules>
+        <module>rt-common</module>
+        <module>rt-web-admin</module>
+        <module>rt-service</module>
+        <module>rt-facade</module>
+        <module>rt-common-shiro</module>
+        <module>rt-common-sms</module>
+    </modules>
+</project>
